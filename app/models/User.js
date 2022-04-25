@@ -21,6 +21,12 @@ class twitter {
     get getLastUpdated() {
         return this.lastUpdated
     }
+    set setUsername(newUserName) {
+        this.name = newUserName
+    }
+    set setBio(newBio) {
+        this.bio = newBio
+    }
 
 
 }
