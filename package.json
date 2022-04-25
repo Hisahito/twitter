@@ -1,0 +1,22 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hisahito/twitter.git"
+  },
+  "author": "Hisahito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hisahito/twitter/issues"
+  },
+  "homepage": "https://github.com/Hisahito/twitter#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
