@@ -13,6 +13,9 @@ class UserService {
     static updateUserUsername(user, username) {
         return user.username = username;
     }
+    static getAllUsernames(users) {
+        return users.map(user => user.username);
+    }
 }
 
 //const user = UserService.create(1, "Hisahito", "Isai");
