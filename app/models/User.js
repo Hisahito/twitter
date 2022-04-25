@@ -6,8 +6,20 @@ class twitter {
         this.user = user;
         this.name = name;
         this.bio = bio;
-        this.dateCreated = dateCreated;
-        this.lastUpdated = lastUpdated;
+        this.dateCreated = new Date();
+        this.lastUpdated = new Date();
+    }
+    get getUsername() {
+        return this.user
+    }
+    get getBio() {
+        return this.bio
+    }
+    get getDateCreated() {
+        return this.dateCreated
+    }
+    get getLastUpdated() {
+        return this.lastUpdated
     }
 
 
